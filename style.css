@@ -1,0 +1,112 @@
+body{
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("darkwood.png");
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.container{
+    width: 940px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+header{
+    height: 150px;
+    background-image: url("header.png");
+    margin-bottom: 20px;
+}
+
+h1{
+    text-indent: -999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+nav, footer{
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 5px 20px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a{
+    color: white;
+
+}
+
+nav li a:hover, nav li a.current{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+section.course{
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee ;
+}
+
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup{
+    margin-top: 40px;
+}
+
+figure{
+    float: left;
+    width: 220px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+figure img{
+    width: 220px;
+    height: 220px;
+}
+
+figcaption{
+    font-size: 90%;
+    text-align: center;
+}
+
+aside{
+    width: 230px;
+    padding: 0 0 0 20px;
+    float: left;
+}
+aside section a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+aside section a:hover{
+    color: #985d6a;
+    background-color: #665544;
+}
+
+
+
+
+
+
